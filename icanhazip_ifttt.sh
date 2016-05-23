@@ -4,9 +4,10 @@
 # Notes: 
 #       1.) The 'icanhazip' on the URL is the Event Name.
 #       2.) Change the <key> with the key provided to you.
-#		3.) Obviously you need a THEN action to catch the value. 
-#				It could be sending you an email, logging to a spreadsheet, 
-#				restarting your modem, emailing your ISP, etc.
+#		    3.) Obviously you need a THEN action to catch the value. 
+#				  It could be sending you an email, logging to a spreadsheet, 
+#				  restarting your modem, emailing your ISP, etc.
+#       4.) Put this in cron if you plan on running every X mins/hours/secs
 
 echo date
 echo "Checking IP" 
